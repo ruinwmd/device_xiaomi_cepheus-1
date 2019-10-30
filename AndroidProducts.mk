@@ -13,4 +13,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cepheus.mk
+    $(LOCAL_DIR)/derp_cepheus.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_cepheus-userdebug \
+    derp_cepheus-eng
