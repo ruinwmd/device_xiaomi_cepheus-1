@@ -163,15 +163,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_null_display=0 \
     vendor.display.enable_optimize_refresh=1
 
-# Display features
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.displayfeature.histogram.enable=true \
-    ro.eyecare.brightness.threshold=11 \
-    ro.eyecare.brightness.level=5 \
-    ro.hist.brightness.threshold=7 \
-    sys.displayfeature.hbm.enable=true \
-    sys.displayfeature_hidl=true
-
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fp.fod=true \
