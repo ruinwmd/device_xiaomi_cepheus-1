@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/xiaomi/cepheus/msmnile.mk)
+$(call inherit-product, device/xiaomi/cepheus/device.mk)
 
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)

@@ -42,7 +42,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosip
 
 # Properties
--include $(LOCAL_PATH)/device_props.mk
+-include $(LOCAL_PATH)/device-props.mk
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
