@@ -111,11 +111,6 @@ case "$target" in
     echo 2000 > /dev/blkio/blkio.group_idle
     echo 0 > /dev/blkio/background/blkio.group_idle
 
-    # Set min cpu freq
-    echo 576000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
-    echo 710400 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
-    echo 825600 > /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq
-
     # Setup final blkio
     # value for group_idle is us
     echo 1000 > /dev/blkio/blkio.weight
