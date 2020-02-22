@@ -29,3 +29,8 @@ TARGET_KERNEL_CONFIG := cepheus_defconfig
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
+# Camera
+TARGET_USES_QTI_CAMERA_DEVICE := true
+TARGET_USES_PREBUILT_CAMERA_SERVICE := true
+
