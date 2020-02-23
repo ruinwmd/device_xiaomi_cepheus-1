@@ -1,2 +1,0 @@
-get_prop(system_server, persist_camera_prop);
-allow system_server init:binder { call transfer };

@@ -1,2 +1,0 @@
-allow hal_ir_default device:chr_file { read write };
-allow hal_ir_default device:chr_file { open ioctl };

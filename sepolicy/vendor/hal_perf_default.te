@@ -1,2 +1,0 @@
-allow hal_perf_default hal_camera_default:dir { search };
-allow hal_perf_default hal_camera_default:file { read open };
