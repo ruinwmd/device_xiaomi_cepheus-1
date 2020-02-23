@@ -1,0 +1,2 @@
+allow tee vendor_data_file:file { read open write unlink create };
+allow tee vendor_data_file:dir { write remove_name add_name };
