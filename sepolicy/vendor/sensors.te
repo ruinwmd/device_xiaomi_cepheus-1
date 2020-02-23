@@ -1,2 +1,0 @@
-allow sensors sysfs_graphics:dir { search };
-allow sensors sysfs_graphics:file { read open getattr };
