@@ -1,2 +1,4 @@
 allow tee vendor_data_file:file { read open write unlink create };
 allow tee vendor_data_file:dir { write remove_name add_name };
+allow tee fingerprint_data_file:dir create_dir_perms;
+allow tee fingerprint_data_file:file create_file_perms;
