@@ -58,6 +58,10 @@
                  android:permission="XiaomiDozeService">
         </service>
 
+        <service android:name=".fod.FodScreenOffService"
+                 android:permission="FodScreenOffService">
+        </service>
+
         <activity
             android:name=".doze.DozeSettingsActivity"
             android:label="@string/ambient_display_title"
