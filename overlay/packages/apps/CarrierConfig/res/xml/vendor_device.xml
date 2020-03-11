@@ -138,9 +138,8 @@
     <carrier_config mcc="450" mnc="8">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="202" mnc="1">
+    <carrier_config mcc="202" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="30,33">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -172,6 +171,13 @@
     <carrier_config mcc="732" mnc="101">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
         <int name="ims_conference_size_limit_int" value="6" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="716" mnc="10">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="730" mnc="3">
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="232" mnc="3">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -211,5 +217,8 @@
     <carrier_config mcc="219" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="214" mnc="05,07">
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 </carrier_config_list>
