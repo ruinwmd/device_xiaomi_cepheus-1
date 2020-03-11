@@ -47,4 +47,6 @@
         <item>0</item>
     </integer-array>
 
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
 </resources>
