@@ -543,6 +543,20 @@ vendor/lib64/libllvm-glnext.so|3201eb5299439208085381295263ea0a3d1040a7
 vendor/lib64/libllvm-qcom.so|ccaf5c49196fb4ea6b5329ecec79dd6252f1b988
 vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
 
+# IO-Prefetcher
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib/libqti-iopd-client.so
+vendor/lib/libqti-iopd.so
+vendor/lib/vendor.qti.hardware.iop@1.0.so
+vendor/lib/vendor.qti.hardware.iop@2.0.so
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib64/libqti-iopd-client.so
+vendor/lib64/libqti-iopd.so
+vendor/lib64/vendor.qti.hardware.iop@1.0.so
+vendor/lib64/vendor.qti.hardware.iop@2.0.so
+
 # IP CAM
 vendor/bin/ipacm
 vendor/etc/IPACM_cfg.xml
