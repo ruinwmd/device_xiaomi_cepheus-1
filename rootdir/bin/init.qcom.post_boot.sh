@@ -29,14 +29,6 @@
 
 target=`getprop ro.board.platform`
 
-function configure_read_ahead_kb_values() {
-    echo 128 > /sys/block/mmcblk0/bdi/read_ahead_kb
-    echo 128 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
-    for dm in $dmpts; do
-        echo 128 > $dm
-    done
-}
-
 function configure_memory_parameters() {
     # Set Memory parameters.
     #
@@ -95,8 +87,6 @@ function configure_memory_parameters() {
     # Set swappiness to 100 for all targets
     echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
     echo 100 > /proc/sys/vm/swappiness
-
-    configure_read_ahead_kb_values
 }
 
 case "$target" in
