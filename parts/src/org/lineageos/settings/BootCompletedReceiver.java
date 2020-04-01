@@ -46,8 +46,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         new DiracUtils(context).onBootCompleted();
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
-        try {
-            FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
-        } catch(Exception e) {}
+        FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
     }
 }
