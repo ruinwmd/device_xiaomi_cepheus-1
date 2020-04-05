@@ -28,3 +28,8 @@ allow init hal_fingerprint_hwservice:hwservice_manager { add find };
 allow init hal_lineage_fod_hwservice:hwservice_manager { add };
 allow init hal_display_postproc_hwservice:hwservice_manager { find };
 allow init hal_display_color_hwservice:hwservice_manager { find };
+allow init vendor_toolbox_exec:file { execute_no_trans execute read write };
+allow init storage_file:lnk_file { read write };
+allow init mnt_user_file:lnk_file { read write };
+allow init sdcardfs:dir { search read write add_name create };
+allow init sdcardfs:file { create read write open };
