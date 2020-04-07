@@ -22,7 +22,12 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TITANIUM_BUILD_TYPE := OFFICIAL
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.titanium.maintainer=@RuinWMD(Steppin'Razor)
+    
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := titanium_cepheus
 PRODUCT_DEVICE := cepheus
