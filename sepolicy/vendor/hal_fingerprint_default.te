@@ -10,7 +10,6 @@ allow hal_fingerprint_default input_device:chr_file { open read write ioctl };
 allow hal_fingerprint_default qdsp_device:chr_file { open ioctl read };
 allow hal_fingerprint_default property_socket:sock_file { write };
 allow hal_fingerprint_default init:unix_stream_socket { connectto };
-allow hal_fingerprint_default vendor_adsprpc_prop:file { read };
 
 allow hal_fingerprint_default fingerprint_device:chr_file rw_file_perms;
 allow hal_fingerprint_default fingerprint_data_file:dir create_dir_perms;
