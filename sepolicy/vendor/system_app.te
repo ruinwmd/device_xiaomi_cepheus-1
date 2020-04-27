@@ -1,0 +1,2 @@
+allow system_app sysfs:file { getattr write open };
+allow system_app sysfs_graphics:file { open read getattr };
