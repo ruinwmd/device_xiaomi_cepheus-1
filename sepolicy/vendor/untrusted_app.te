@@ -1,2 +1,2 @@
 allow untrusted_app persist_camera_prop:file { open getattr map };
-allow untrusted_app hal_memtrack_hwservice:hwservice_manager { find };
+
