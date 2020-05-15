@@ -13,8 +13,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_cepheus.mk
+    $(LOCAL_DIR)/carbon_cepheus.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_cepheus-userdebug \
-    derp_cepheus-eng
+    carbon_cepheus-userdebug \
+    carbon_cepheus-eng
