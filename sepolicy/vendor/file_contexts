@@ -10,7 +10,7 @@
 /sys/devices/virtual/touch/tp_dev/fod_status                            u:object_r:sysfs_tp_fodstatus:s0
 
 # WiFi
-/vendor/bin/nv_mac              									u:object_r:wcnss_service_exec:s0
+/vendor/bin/wifi-mac-generator                                                                          u:object_r:wifi-mac-generator_exec:s0
 
 # Power stats
 /sys/power/system_sleep/stats u:object_r:sysfs:s0
