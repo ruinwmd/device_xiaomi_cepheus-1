@@ -16,8 +16,8 @@
 $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
-#$(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
@@ -26,7 +26,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 BLISS_DEVELOPER := SteppinRazor
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_cepheus
+PRODUCT_NAME := statix_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
@@ -44,3 +44,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/ANXCamera/config.mk)
+# Inherit from gapps
+$(call inherit-product, vendor/google/gapps/gapps-vendor.mk)

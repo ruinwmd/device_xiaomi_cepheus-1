@@ -231,8 +231,8 @@ PRODUCT_COPY_FILES += \
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
-    IPACM_cfg.xml
-
+    IPACM_cfg.xml \
+    liboffloadhal
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
@@ -324,6 +324,10 @@ PRODUCT_COPY_FILES += \
 # NN
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
+
+# Product
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msmnile
 
 # PixelLiveWallpaper
 PRODUCT_PACKAGES += \
