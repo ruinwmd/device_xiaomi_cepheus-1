@@ -13,8 +13,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_cepheus.mk
+    $(LOCAL_DIR)/magma_cepheus.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_cepheus-userdebug \
-    bliss_cepheus-eng
+    magma_cepheus-userdebug \
+    magma_cepheus-eng
