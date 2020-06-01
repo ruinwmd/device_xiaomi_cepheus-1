@@ -224,10 +224,6 @@ PRODUCT_PACKAGES += \
     init.panel_info.sh \
     ueventd.qcom.rc
 
-# HotwordEnrollement
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:system/etc/permissions/privapp-permissions-hotword.xml
-
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
