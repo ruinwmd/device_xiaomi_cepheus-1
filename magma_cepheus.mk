@@ -23,7 +23,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
-BLISS_DEVELOPER := SteppinRazor
+MAGMA_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := magma_cepheus
