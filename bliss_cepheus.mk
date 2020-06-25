@@ -24,7 +24,6 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 BLISS_BUILDTYPE := OFFICIAL
-BLISS_DEVELOPER := SteppinRazor
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_cepheus
