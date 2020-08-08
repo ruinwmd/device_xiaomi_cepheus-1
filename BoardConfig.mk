@@ -6,6 +6,7 @@
 
 # Inherit from sm8150-common
 -include device/xiaomi/sm8150-common/BoardConfigCommon.mk
+-include vendor/miuicamera/common/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/cepheus
 
@@ -33,4 +34,4 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_USES_PREBUILT_CAMERA_SERVICE := true
-
+USE_DEVICE_SPECIFIC_CAMERA := true
